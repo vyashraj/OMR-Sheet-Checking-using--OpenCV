@@ -1,0 +1,71 @@
+
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 2s steps(44) 1s 1 normal both,
+    500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 13em;
+  }
+}
+.h4 label,
+h4 {
+
+  background-color: #e2e0e0;
+  padding: 7px;
+}
+#login1 {
+  background-color: transparent;
+  border: 2px solid rgb(23, 23, 25);
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  /* padding: 16px 32px; */
+  transition-duration: 0.4s;
+}
+.main_photo{
+  margin-top: 30px;
+  padding-left: 250px;
+  width: 1200px;
+  height: 600px;
+}
+@media (min-width: 1025px) {
+  .h-custom-2 {
+  height: 100%;
+  }
+  }
+  
+#login1 {
+  float: right;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+#login1:hover {
+  background-color: #070707;
+  color: white;
+}
+
+.line-2 {
+  position: relative;
+  margin-left: 8px;
+  padding: 5px;
+  /* left: 10px; */
+  text-align: left;
+  font-size: 180%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
